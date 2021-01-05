@@ -10,13 +10,21 @@ https://www.kaggle.com/c/nfl-big-data-bowl-2021/overview
 Glossary of terms (for the unfamiliar with NFL):
 
 Field: The NFL field is 120 yards by 53.3 yards - with the 10 yards at each end being the scoring zones
+
 Offense: the team which is attempting to progress the ball down the field and ultimately score
+
 Defense: conversely the team attempting to prevent the offense from progressing
+
 Line of Scrimmage: The imaginary line that represents the offense’s progress prior to the play, it is the line on which the ball is positioned at the start of each play.
+
 Ball Snap: This is the first moment the play is live and the ball is moved by the offence team
+
 Pass Forward: On each play the offensive team is allowed to pass the ball forward only one time
+
 QuarterBack (QB): The specialist passer - the player on each team who almost always passes the ball forward
+
 Receiver (Rec): Each offense has a number of receivers who try to get open (in space away from the defenders) in order to catch a pass from the QB
+
 Down: The offensive team has 4 attempts (or downs) to progress the ball 10 yards closer to the defending team’s end zone
 
 DATA:
