@@ -128,17 +128,21 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 
 
 
-FEATURE ENGINEERING / DATA SELECTION:
+## FEATURE ENGINEERING / LABELLING:
 
-I am using featuring engineering to extract players movements relative to each other for each of these frames and changes between the frames.
- 
-MODELLING:
+[Notebook](DSI_Capstone_Code_Feature_Engineering.ipynb)
+
+
+
+
+
+
+## MODELLING:
 
 I use a metric known as EPA (expected points added) to measure the success of the play.
 
 I have binarised this metric based on the median, so that if the epa is greater than the median the play is considered successful for the offense and vice versa for the defense.
 
-I complete binary classification modelling on features I have engineered from selected frames of each play to predict the outcome of the play and whether the offense or defense has been successful.
 
 CONCLUSIONS:
 
