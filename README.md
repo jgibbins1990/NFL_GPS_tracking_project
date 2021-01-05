@@ -12,7 +12,7 @@ The project on this notebook uses data sourced from the 2021 NFL Big Data Bowl h
 [Raw Data & Competition Info](https://www.kaggle.com/c/nfl-big-data-bowl-2021/overview)
 
 
-### GLOSSARY OF TERMS (for the unfamiliar with NFL):
+### GLOSSARY OF TERMS (for those unfamiliar with NFL)
 
 Field: The NFL field is 120 yards by 53.3 yards – with the 10 yards at each end being the scoring zones
 
@@ -32,7 +32,7 @@ Receiver (Rec): Each offense has a number of receivers who try to get open (in s
 
 Down: The offensive team has 4 attempts (or downs) to progress the ball 10 yards closer to the defending team’s end zone
 
-## DATA:
+## DATA
 
 The data provided is GPS tracking of players on passing plays. The data covers all 32 teams from the 17 weeks of the 2018 season. 
 
@@ -47,7 +47,7 @@ Data also includes player orientation and direction of travel as a bearing where
 
 
 
-## EDA & DATA CLEANING
+## EDA AND DATA CLEANING
 
 [Notebook](https://github.com/jgibbins1990/DSI_Capstone/blob/main/DSI_Capstone_Code_EDA%26Cleaning.ipynb)
 
@@ -79,7 +79,7 @@ The linked notebook shows data cleaning steps and EDA of the raw data. Some exam
 
 
 
-## PLOTTING DATA:
+## PLOTTING DATA
 
 [Notebook](DSI_Capstone_Code_Plotly_Viz.ipynb)
 
@@ -126,7 +126,7 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 
 
 
-## FEATURE ENGINEERING / LABELLING:
+## FEATURE ENGINEERING / LABELLING
 
 [Notebook](DSI_Capstone_Code_Feature_Engineering.ipynb)
 
@@ -138,7 +138,7 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 
 
 
-## MODELLING:
+## MODELLING
 
 [Notebook](DSI_Capstone_Code_Modelling.ipynb)
 
@@ -180,7 +180,7 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 - The pass is to open space dissecting a number of defenders
 - Here the 3d nature of the play ('the ball is in the air') is not well represented and I believe the model does not predict a completed pass. Further the pass is not direct to the receiver but to open space and the receiver (Moncrief) has to move a large distance in order to catch the ball.
 
-## CONCLUSIONS AND NEXT STEPS:
+## CONCLUSIONS AND NEXT STEPS
 
 - With machine learning modelling we are able to make a prediction on the outcome of a play with 72% accuracy using only 4 frames of tracking data per play, this has been achieved by engineering GPS tracking features based on the movements of defensive players in relation to the passer and receiver on the offense and the ball.
 
