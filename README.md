@@ -61,9 +61,9 @@ Data was provided in 20 csv files:
 
 The linked notebook shows data cleaning steps and EDA of the raw data. Some example EDA for the player information is shown below:
 
-![](images/Frames.png)
+![](images/C.png)
 
-![](images/Frames.png)
+![](images/D.png)
 
 
 ### SELECTING DATA FOR ANALYSIS
