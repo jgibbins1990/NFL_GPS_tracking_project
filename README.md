@@ -160,6 +160,15 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 
 ## PREDICTIONS
 
+[Notebook](DSI_Capstone_Code_Predictions.ipynb)
+
+- So we have a model which can make a prediction with 72% accuracy - let's take a look at where the model failed and try to work out why
+
+### PREDICTED FOR OFFENSE , ACTUAL EPA: -6.421602
+- In the above play, the ball is passed forward at frame 40 and 1 second after the ball is well on the way to open receiver
+- Receiver drops the ball and the resulting interception leads to the defensive team to pick up the ball and put the offense back 10 yards
+- Model here doesn't have enough data at 1 second after the pass to make a good prediction
+
 
 
 
