@@ -180,7 +180,17 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 
 ## CONCLUSIONS & NEXT STEPS:
 
-- 
+- With machine learning modelling we are able to make a prediction on the outcome of a play with 72% accuracy using only 4 frames of tracking data per play, this has been achieved by engineering GPS tracking features based on the movements of defensive players in relation to the passer and receiver on the offense and the ball.
+
+![](images/featimp.png)
+- Looking at feature importances of models we are able to say that our engineered features have the highest impact on the models and in particular the distances of receiver, ball and first defender at p5 and p10 have the greatest impact on the models. Clearly it is of great impirtance for the defense to identify and obstruct the receiver as soon as possible in the play.
+
+- The data mapped players and the ball in 2 dimensions only and so struggled to deal with the 3D reality when the ball spent a long time in the air. Equally passes in to open space (not directed at a receiver) were not well handled.
+
+- It would be possible in future to break down plays in to further subgroups based on these failing and attempt further model (e.g. modelling passes in to open space separately to see if there are different feature importances at play)
+
+- It would be nice to have data referring to the path of the ball in the air (e.g. height, trajectory) as this may help deal with the failings of a 2D representation of the plays. (Though this may be hard to come by or impossible at present!)
 
 
-Thanks for reading!
+
+## Thanks for reading!
