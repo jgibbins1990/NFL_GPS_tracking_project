@@ -1,4 +1,4 @@
-# README: James Gibbins DSI Capstone – V1.2
+# README: James Gibbins DSI Capstone – NFL PASSING PLAY PREDICTOR - V1.2
 
 ## INTRODUCTION / AIMS
 
