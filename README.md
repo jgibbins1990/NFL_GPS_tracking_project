@@ -44,7 +44,7 @@ The tracking data includes x and y coordinates for each player relative to the f
 
 Data also includes player orientation and direction of travel as a bearing where 0 degrees is parallel to the y axis. 
 
-![alt text]()
+![](images/
 
 
 
