@@ -6,9 +6,9 @@
 
 Hello!
 
-This project aims to use GPS tracking data of NFL players to predict the outcome of passing plays after 1 second of movement.
+This project aims to use GPS tracking data of NFL players to predict the outcome of passing plays based on the movements of key players from the offensive and defensive teams.
 
-The primary goal of the project is to classify whether a play will be successful for the offense or defense based on the relative movements of players 
+The primary goal of the project is to classify whether a play will ultimately be successful for the offense or defense based on the relative movements of players a maximum of 1 second after the pass is thrown. The project hopes to glean useful insights from this time period to aid coaches analysis of plays and make recommendations for improvements on both the offensive and defensive side of the ball.
 
 The project on this notebook uses data sourced from the 2021 NFL Big Data Bowl hosted by kaggle:
 https://www.kaggle.com/c/nfl-big-data-bowl-2021/overview
