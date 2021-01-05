@@ -158,6 +158,8 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 - Engineered features dominated the feature importance of the Random Forest model, with only YardsToGo featuring in top 40
 - I extracted the highest featured defence teams and players. (passers dominated here - QBs)
 
+
+
 ## PREDICTIONS
 
 [Notebook](DSI_Capstone_Code_Predictions.ipynb)
@@ -174,11 +176,11 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 ![](images/PREDFORDEF_pf.png)
 - At the moment of pass (frame 40) the defense has really good cover of all receivers
 - The pass is to open space dissecting a number of defenders
-- Here the 3d nature of the play ('the ball is in the air') is not well represented and I think the model does not predict a completed pass
-Also the pass is not direct but to open space and the receiver (Moncrief) has to move a lot to successfully collect the pass
+- Here the 3d nature of the play ('the ball is in the air') is not well represented and I believe the model does not predict a completed pass. Further the pass is not direct to the receiver but to open space and the receiver (Moncrief) has to move a large distance in order to catch the ball.
 
 ## CONCLUSIONS & NEXT STEPS:
 
+- 
 
 
 Thanks for reading!
