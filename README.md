@@ -81,7 +81,7 @@ The linked notebook shows data cleaning steps and EDA of the raw data. Some exam
 
 
 
-### PLOTTING DATA:
+## PLOTTING DATA:
 
 [Notebook](DSI_Capstone_Code_Plotly_Viz.ipynb)
 
