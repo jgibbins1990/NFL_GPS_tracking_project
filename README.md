@@ -52,11 +52,6 @@ Data also includes player orientation and direction of travel as a bearing where
 
 
 
-
-
-
-
-
 ### SELECTING DATA FOR ANALYSIS
 
 ![](images/Frames.png)
@@ -70,9 +65,11 @@ Data also includes player orientation and direction of travel as a bearing where
 
 
 
+
+
 ### PLOTTING DATA:
 
-I plotted the data for each play using plotly express. This allowed me to clearly visually represent the players movements on the field of play and 
+I plotted the data for each play using plotly express. This allowed me to clearly visually represent the players movements on the field of play and break down the plays for analysis.
 
 An example play is shown below broken down into the 4 frames highlighted. 
 
@@ -80,7 +77,7 @@ An example play is shown below broken down into the 4 frames highlighted.
 
 ![](images/p1_bs_f11.png)
 
-In the above frame we see 
+In the above frame (11) we see the offensive (green) and defense (purple) lined up either side of the line of scrimmage.
 
 #### Pass Forward - frame 36
 
@@ -88,9 +85,13 @@ In the above frame we see
 
 ![](images/p1_pf_36_inf.png)
 
+In the above frame (36) we see the offense has moved the ball to the QB Matt Ryan. He will now attempt to pass the ball to one of the offensive receivers and the defensive players will attempt to prevent the pass being completed or block the progress of the receiver.
+
 #### Pass Forward + 0.5 s - frame 41
 
 ![](images/p1_p5_41.png)
+
+In the above frame (41) the pass is made and the ball is travelling towards the intended receiver.
 
 #### Pass Forward + 1 s - frame 46
 
@@ -98,6 +99,7 @@ In the above frame we see
 
 ![](images/p1_p10_46_inf.png)
 
+In the above frame (46) the pass is made and the ball is travelling towards the intended receiver Julio Jones.
 
 
 
