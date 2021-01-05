@@ -47,14 +47,28 @@ Data also includes player orientation and direction of travel as a bearing where
 ![](images/A.png)
 
 
+### PLOTTING DATA:
+
+#### Ball Snap - frame 11
+
+![](images/p1_bs_f11.png)
 
 
+#### Pass Forward - frame 36
 
+![](images/p1_pf_f36.png)
 
+![](images/p1_pf_36_inf.png)
 
+#### Pass Forward + 0.5 s - frame 41
 
+![](images/p1_p5_41.png)
 
+#### Pass Forward + 1 s - frame 46
 
+![](images/p1_p10_46.png)
+
+![](images/p1_p10_46_inf.png)
 
 
 
