@@ -2,7 +2,7 @@
 
 ## README: James Gibbins DSI Capstone - V1.1
 
-### INTRODUCTION / AIMS
+## INTRODUCTION / AIMS
 
 Hello!
 
@@ -34,7 +34,7 @@ Receiver (Rec): Each offense has a number of receivers who try to get open (in s
 
 Down: The offensive team has 4 attempts (or downs) to progress the ball 10 yards closer to the defending team’s end zone
 
-### DATA:
+## DATA:
 
 The data provided is GPS tracking of players on passing plays. The data covers all 32 teams from the 17 weeks of the 2018 season. 
 
@@ -47,8 +47,10 @@ Data also includes player orientation and direction of travel as a bearing where
 ![](images/A.png)
 
 
+## EDA & DATA CLEANING
 
 
+[Notebook](https://github.com/jgibbins1990/DSI_Capstone/blob/main/DSI_Capstone_Code_EDA%26Cleaning.ipynb)
 
 
 
