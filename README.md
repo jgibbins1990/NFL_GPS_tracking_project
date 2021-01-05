@@ -142,11 +142,29 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 
 ## MODELLING:
 
-I use a metric known as EPA (expected points added) to measure the success of the play.
+[Notebook](DSI_Capstone_Code_Modelling.ipynb)
 
-I have binarised this metric based on the median, so that if the epa is greater than the median the play is considered successful for the offense and vice versa for the defense.
+### Target Variable
+- In order to assess the play I am using the EPA variable.
+- Expected points is a metric that estimates the average of every next scoring outcome given the play's down, distance, yardline, and time remaining relative to the offensive team
+- Due to the large number of outliers I am not doing a regression to try and predict the EPA for each play but rather have binarized the variable based on the median epa
+- If the epa for a play is higher than the median I have classified it as a successful action for the offense, and conversely if the epa is below the median it will be succesful for the defense
+
+### CLF Models
+
+- A few of the top performing models are shown - all models have been run with a 5 fold cross validation to prevent the chances of over fitting
+- A Gridsearch is shown for the Random Forest, improving CV score from 0.665 to 0.698
+- Ultimately the best model was a bagging classifier on a Decision Tree with a 0.718 accuracy score vs 50% baseline
+- The bagging model was slightly better at predicting for Offense vs Defense with F1 score 0.72 vs 0.71 and recall 0.74 vs 0.69 
+- Area under Precision - Recall and ROC curves was almost identical for both classes
+- Engineered features dominated the feature importance of the Random Forest model, with only YardsToGo featuring in top 40
+- I extracted the highest featured defence teams and players. (passers dominated here - QBs)
+
+## Predictions
 
 
-CONCLUSIONS:
+## CONCLUSIONS & NEXT STEPS:
+
+
 
 Thanks for reading!
