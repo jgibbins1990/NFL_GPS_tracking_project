@@ -47,9 +47,23 @@ Data also includes player orientation and direction of travel as a bearing where
 ![](images/A.png)
 
 
+### SELECTING DATA FOR ANALYSIS
+
+
+
+- We can see that the ball snap generally occurs after 10 frames (1 second). The snap is the first moment where the play is live.
+- On average there is a pass forward made around 2.6 - 2.8 seconds after the snap
+- On average passing outcomes occur 1.5 seconds after the pass is thrown
+- For the analysis I used GPS data from 4 frames of each play. The Snap / Pass Forward / 0.5 seconds after pass / 1.0 seconds after pass.
+
+
+
+
 ### PLOTTING DATA:
 
 I plotted the data for each play using plotly express. This allowed me to clearly visually represent the players movements on the field of play and 
+
+In order to reduce the complexity I have limited my analysis to only frames relating to the ball snap, pass_forward, pass_forward + 0.5 seconds (p5 in the notebook) and pass_forward + 1.0 seconds (p10 in the notebook)
 
 An example play is shown below broken down into those 4 frames highlighted. 
 
@@ -57,6 +71,7 @@ An example play is shown below broken down into those 4 frames highlighted.
 
 ![](images/p1_bs_f11.png)
 
+In the above frame we see 
 
 #### Pass Forward - frame 36
 
@@ -87,8 +102,6 @@ An example play is shown below broken down into those 4 frames highlighted.
 
 
 FEATURE ENGINEERING / DATA SELECTION:
-
-In order to reduce the complexity I have limited my analysis to only frames relating to the ball snap, pass_forward, pass_forward + 0.5 seconds (p5 in the notebook) and pass_forward + 1.0 seconds (p10 in the notebook)
 
 I am using featuring engineering to extract players movements relative to each other for each of these frames and changes between the frames.
  
