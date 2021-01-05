@@ -59,9 +59,10 @@ Data also includes player orientation and direction of travel as a bearing where
 
 ### SELECTING DATA FOR ANALYSIS
 
+![](images/Frames.png)
 
 
-- We can see that the ball snap generally occurs after 10 frames (1 second). The snap is the first moment where the play is live.
+- We can see that the ball snap generally occurs after 11 frames (1.1 second). The snap is the first moment where the play is live.
 - On average there is a pass forward made around 2.6 - 2.8 seconds after the snap
 - On average passing outcomes occur 1.5 seconds after the pass is thrown
 - For the analysis I used GPS data from 4 frames of each play. The Snap / Pass Forward / 0.5 seconds after pass / 1.0 seconds after pass.
