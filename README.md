@@ -35,12 +35,14 @@ In order to reduce the complexity I have limited my analysis to only frames rela
 
 I am using featuring engineering to extract players movements relative to each other for each of these frames and changes between the frames.
  
-Modelling:
+MODELLING:
 
 I use a metric known as EPA (expected points added) to measure the success of the play.
 
 I have binarised this metric based on the median, so that if the epa is greater than the median the play is considered successful for the offense and vice versa for the defense.
 
 I complete binary classification modelling on features I have engineered from selected frames of each play to predict the outcome of the play and whether the offense or defense has been successful.
+
+CONCLUSIONS:
 
 Thanks for reading!
