@@ -47,11 +47,23 @@ Data also includes player orientation and direction of travel as a bearing where
 ![](images/A.png)
 
 
-## EDA & DATA CLEANING
 
+
+## EDA & DATA CLEANING
 
 [Notebook](https://github.com/jgibbins1990/DSI_Capstone/blob/main/DSI_Capstone_Code_EDA%26Cleaning.ipynb)
 
+Data was provided in 20 csv files:
+- Player Information (1 csv file)
+- Game Information (1 csv file)
+- Play Information (1 csv file)
+- GPS Tracking Data (17 csv files)
+
+The linked notebook shows data cleaning steps and EDA of the raw data. Some example EDA for the player information is shown below:
+
+![](images/Frames.png)
+
+![](images/Frames.png)
 
 
 ### SELECTING DATA FOR ANALYSIS
@@ -70,6 +82,8 @@ Data also includes player orientation and direction of travel as a bearing where
 
 
 ### PLOTTING DATA:
+
+[Notebook]()
 
 I plotted the data for each play using plotly express. This allowed me to clearly visually represent the players movements on the field of play and break down the plays for analysis.
 
