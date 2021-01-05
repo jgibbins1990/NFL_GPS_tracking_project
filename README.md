@@ -24,7 +24,7 @@ Defense: conversely the team attempting to prevent the offense from progressing
 
 Line of Scrimmage: The imaginary line that represents the offense’s progress prior to the play, it is the line on which the ball is positioned at the start of each play.
 
-Ball Snap: This is the first moment the play is live and the ball is moved by the offence team
+Ball Snap: This is the first moment the play is live and the ball is moved by the offensive team
 
 Pass Forward: On each play the offensive team is allowed to pass the ball forward only one time
 
@@ -48,6 +48,10 @@ Data also includes player orientation and direction of travel as a bearing where
 
 
 ### PLOTTING DATA:
+
+I plotted the data for each play using plotly express. This allowed me to clearly visually represent the players movements on the field of play and 
+
+An example play is shown below broken down into those 4 frames highlighted. 
 
 #### Ball Snap - frame 11
 
