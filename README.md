@@ -47,6 +47,16 @@ Data also includes player orientation and direction of travel as a bearing where
 ![](images/A.png)
 
 
+
+
+
+
+
+
+
+
+
+
 ### SELECTING DATA FOR ANALYSIS
 
 
@@ -63,9 +73,7 @@ Data also includes player orientation and direction of travel as a bearing where
 
 I plotted the data for each play using plotly express. This allowed me to clearly visually represent the players movements on the field of play and 
 
-In order to reduce the complexity I have limited my analysis to only frames relating to the ball snap, pass_forward, pass_forward + 0.5 seconds (p5 in the notebook) and pass_forward + 1.0 seconds (p10 in the notebook)
-
-An example play is shown below broken down into those 4 frames highlighted. 
+An example play is shown below broken down into the 4 frames highlighted. 
 
 #### Ball Snap - frame 11
 
