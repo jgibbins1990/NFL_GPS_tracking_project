@@ -132,8 +132,11 @@ In the above frame (46) the pass is made and the ball is travelling towards the 
 
 [Notebook](DSI_Capstone_Code_Feature_Engineering.ipynb)
 
-
-
+- Feature Engineering involved the labelling of certain players on the play , namely: Passer & Receiver for the offense and Defenders 1-5 for the defense
+- Once labelled - I engineered features that relate each players movements with relation to the ball and receiver over the 4 frames
+- In some cases I was unable to clearly identify the passing player - these plays were dropped
+- For each play we have some descriptive information, and the tracking data of football, passer, receiver, 5 defenders plus engineered features to describe their movement realtive to each other
+- After all data cleaning and feature engineering 15,511 plays will be modelled on 386 features (categorical variables still needing dummification)
 
 
 
