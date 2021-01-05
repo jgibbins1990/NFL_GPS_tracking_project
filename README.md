@@ -1,13 +1,20 @@
 # DSI_Capstone
 
-README: James Gibbins DSI Capstone - V1.1
+## README: James Gibbins DSI Capstone - V1.1
+
+### INTRODUCTION
 
 Hello!
 
-The project on this notebook uses data sourced from a kaggle competition:
+This project aims to use GPS tracking data of NFL players to predict the outcome of passing plays after 1 second of movement. The 
+
+The project on this notebook uses data sourced from the 2021 NFL Big Data Bowl hosted by kaggle:
 https://www.kaggle.com/c/nfl-big-data-bowl-2021/overview
 
-Glossary of terms (for the unfamiliar with NFL):
+
+
+
+### GLOSSARY OF TERMS (for the unfamiliar with NFL):
 
 Field: The NFL field is 120 yards by 53.3 yards - with the 10 yards at each end being the scoring zones
 
@@ -27,7 +34,7 @@ Receiver (Rec): Each offense has a number of receivers who try to get open (in s
 
 Down: The offensive team has 4 attempts (or downs) to progress the ball 10 yards closer to the defending team’s end zone
 
-DATA:
+### DATA:
 
 The data provided is GPS tracking of players on passing plays. The data covers all 32 teams from the 17 weeks of the 2018 season. 
 
@@ -37,7 +44,14 @@ The tracking data includes x and y coordinates for each player relative to the f
 
 Data also includes player orientation and direction of travel as a bearing where 0 degrees is parallel to the y axis. 
 
-Feature Engineering / Data Selection:
+![alt text]()
+
+
+
+
+
+
+FEATURE ENGINEERING / DATA SELECTION:
 
 In order to reduce the complexity I have limited my analysis to only frames relating to the ball snap, pass_forward, pass_forward + 0.5 seconds (p5 in the notebook) and pass_forward + 1.0 seconds (p10 in the notebook)
 
