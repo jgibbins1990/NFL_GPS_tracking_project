@@ -2,16 +2,16 @@
 
 ## README: James Gibbins DSI Capstone - V1.1
 
-### INTRODUCTION
+### INTRODUCTION / AIMS
 
 Hello!
 
-This project aims to use GPS tracking data of NFL players to predict the outcome of passing plays after 1 second of movement. The 
+This project aims to use GPS tracking data of NFL players to predict the outcome of passing plays after 1 second of movement.
+
+The primary goal of the project is to classify whether a play will be successful for the offense or defense based on the relative movements of players 
 
 The project on this notebook uses data sourced from the 2021 NFL Big Data Bowl hosted by kaggle:
 https://www.kaggle.com/c/nfl-big-data-bowl-2021/overview
-
-
 
 
 ### GLOSSARY OF TERMS (for the unfamiliar with NFL):
@@ -44,7 +44,24 @@ The tracking data includes x and y coordinates for each player relative to the f
 
 Data also includes player orientation and direction of travel as a bearing where 0 degrees is parallel to the y axis. 
 
-![](images/
+![](images/A.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
