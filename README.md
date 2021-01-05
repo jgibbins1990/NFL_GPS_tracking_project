@@ -1,6 +1,4 @@
-# DSI_Capstone
-
-## README: James Gibbins DSI Capstone - V1.1
+# README: James Gibbins DSI Capstone - V1.2
 
 ## INTRODUCTION / AIMS
 
